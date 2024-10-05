@@ -5,25 +5,27 @@ import Menu from "@/app/ui/menu/menu";
 import { lora } from "@/app/ui/fonts";
 
 export default function NavBar(){
-	const lines = document.getElementsByClassName(`menu_sticks`);
+	const lines = document.getElementsByClassName('menu_sticks');
+	const line0 = lines[0] as HTMLElement;
+	const line1 = lines[1] as HTMLElement;
 	const [menu_toggle, set_menu_toggle] = React.useState(false);
 
 	function menu_handler(){
 		if(menu_toggle == false){
 			set_menu_toggle(true);
-		(lines[0] as HTMLElement).style=`width:50%;
+		(line0.style as CSSStyleDeclaration)=`width:50%;
 						height:7%;
 						transform: rotate(45deg);`;
-		(lines[0] as HTMLElement).style=`width:50%;
+		(line1.style as CSSStyleDeclaration)=`width:50%;
 						height:7%;
 						transform: rotate(-45deg);`;
 		}
 		else{
 			set_menu_toggle(false);
-		(lines[0] as HTMLElement).style=`width:50%;
+		(line0.style as CSSStyleDeclaration)=`width:50%;
 						height:5%;
 						transform: rotate(0deg);`;
-		(lines[0] as HTMLElement).style=`width:50%;
+		(line1.style as CSSStyleDeclaration)=`width:50%;
 						height:5%;
 						transform: rotate(0deg);`;
 		}
