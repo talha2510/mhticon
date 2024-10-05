@@ -1,0 +1,55 @@
+
+.nav_bar{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	height: 10vh ;
+	background-color: rgb(24, 24, 27);
+	box-shadow: 0px 0px 20px black;
+	position: fixed;
+	top:0px;
+	z-index: 2;
+	padding: 2vw;
+}
+
+.nav_bar h1{
+	font-size: 2vw;
+	letter-spacing: 1.5vh;
+	color: rgb(245 245 245);
+}
+
+.nav_bar button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height:3vw;
+	width: 3vw;
+	border-radius: 1vh;
+	background-color: rgb(245 158 11);
+	position: absolute;
+	right:5%;
+}
+.nav_bar button div{
+	position:absolute;
+	width:50%;
+	height:5%;
+	background-color: rgb(229 229 229);
+	transition-duration: 0.25s;
+}
+
+@media only screen and (max-width:640px){
+	.nav_bar{
+		padding:2vw;
+	}
+
+	.nav_bar h1{
+		font-size: 5vw;
+	}
+
+	.nav_bar button{
+		height:10vw;
+		width: 10vw;
+		border-radius: 1vh;
+	}
+}
