@@ -30,7 +30,7 @@ export default function OurClient(){
 			</div>
 			<div>
 				<h1 className = {lora.className}>Trusted by Industry Leaders</h1>
-				<p className = {montserrat}>Our esteemed clients include some of the biggest names across various sectors. We specialize in providing top-tier manpower and HR consultancy services tailored to meet the unique needs of each organization.</p>
+				<p className = {montserrat.className}>Our esteemed clients include some of the biggest names across various sectors. We specialize in providing top-tier manpower and HR consultancy services tailored to meet the unique needs of each organization.</p>
 				<Link href = "#">lets go</Link>
 			</div>
 		</div>
