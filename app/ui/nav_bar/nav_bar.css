@@ -1,0 +1,13 @@
+.stick_rotate_right{
+	height:7%;
+	transform: rotate(45deg);
+}
+.stick_rotate_left{
+	height:7%;
+	transform: rotate(-45deg);
+}
+
+.stick_default{
+	height:5%;
+	transform: rotate(0);
+}
