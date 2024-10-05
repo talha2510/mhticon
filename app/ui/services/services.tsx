@@ -62,7 +62,8 @@ export default function Services(){
 				<span><Image src = "/services/phone_icon.png"
 					width = {256}
 					height = {256}
-					className = "hidden sm:inline"
+					className = "inline"
+					alt="phone icon"
 				/>+91 8591089123</span>
 			</div>
 		</div>
