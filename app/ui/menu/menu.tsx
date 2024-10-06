@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 interface MenuProps{
 	menu_toggle:boolean;
-	menu_handler:MouseEvent;
+	menu_handler:(event:React.MouseEvent<HTMLAnchorElement, MouseEvent>)
 }
 
 export default function Menu({menu_toggle,menu_handler}:MenuProps){
