@@ -198,3 +198,219 @@
 		width: 25%;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:642px){
+	.services{
+		width: 100vw;
+	}
+	/***********************************all div under services class*******************************/
+	.services > div{
+		width: 100vw;
+	}
+	.services > div > img{
+		width: 100%;
+	}
+	/*****************************************first div*****************************************/
+	.services > div:nth-child(1){
+		margin-top: 10vh;
+	}
+	/********************************second div*****************************************/
+	.services > div:nth-child(2){
+		position: absolute;
+		top:20vh;
+		width: 50%;
+		color: rgb(229 229 229);
+		padding: 3vw 3vw;
+		background-color: rgba(23, 23, 23, 0.5);
+	}
+	.services > div:nth-child(2) > h1{
+		font-size: 3vw;
+		margin: 2vh 0;
+	}
+	.services > div:nth-child(2) > p{
+		font-size: 1.4vw;
+		margin: 2vh 0 6vh 0;
+	}
+	.services > div:nth-child(2) > hr{
+		width: 10%;
+		border: none;
+		background-color: rgb(229 229 229);
+		height: 3px;
+	}
+	.services > div:nth-child(2) > div{
+		width: 100%;
+		background-color: rgb(229 229 229);
+		height: 0.5px;
+	}
+	/************************************third div*****************************/
+	.services > div:nth-child(3){
+		width: 100%;
+		background-color: rgb(229 229 229);
+		padding: 6vw 3vw;
+		display: flex;
+	}
+	.services > div:nth-child(3) > div{
+		display: inline-flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	.services > div:nth-child(3) > div:nth-child(1) > img{
+		width: 90%;
+	}
+	.services > div:nth-child(3) > div:nth-child(2){
+		color: rgb(23, 23, 23);
+		justify-content: space-evenly;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > h1{
+		font-size: 3vw;
+
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > p{
+		font-size:1.3vw;
+	}
+
+	.services > div:nth-child(3) > div:nth-child(2) > div{
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	.services > div:nth-child(3) > div:nth-child(2) > div > div{
+		display: inline-flex;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > div > div > span{
+		width: 50%;
+		font-size: 1.3vw;
+		padding: 1vw 2vw;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > a{
+		padding: 1vw 0vw;
+		text-align: center;
+		font-size: 1.5vw;
+		border-radius: 3vw;
+		transition-duration: 0.25s;
+		background-color: rgb(23, 23, 23);
+		color: rgb(229, 229, 229);
+		width: 40%;
+		border: 2px solid transparent;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > a:hover{
+		background-color: rgb(229, 229, 229);
+		border:2px solid rgb(23, 23, 23);
+		color :rgb(23, 23, 23);
+		width: 45%;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > span{
+		font-size: 1.7vw;
+	}
+	.services > div:nth-child(3) > div:nth-child(2) > span > img{
+		width: 4vw;
+		margin: 0 2vh;
+	}
+	/***********************************fourth div*************************************/
+	.services > div:nth-child(4){
+		width: 100vw;
+		height: 90vh;
+		padding: 10vh 2vh 5vh 5vh;
+		background-color: rgb(23 23 23);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.services > div:nth-child(4) > div{
+		height: 50%;
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	.services > div:nth-child(4) > div:nth-child(1) > h1{
+		font-size: 3vw;
+		color: rgb(229, 229, 229);
+		text-align: center;
+	}
+	.services > div:nth-child(4) > div:nth-child(1) > p{
+		font-size: 1.3vw;
+		color: rgb(170, 170, 170);
+		text-align: center;
+		width: 50%;
+		margin: 2vh auto;
+	}
+	
+	.services > div:nth-child(4) > div:nth-child(2){
+		flex-direction: row;
+	}
+
+	.services > div:nth-child(4) > div:nth-child(2) > div{
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding: 1vw;
+	}
+
+	.services > div:nth-child(4) > div:nth-child(2) > div > h1{
+		font-size: 2vw;
+		color: rgb(229, 229, 229);
+		text-align: center;
+	}
+	.services > div:nth-child(4) > div:nth-child(2) > div > hr{
+		border: none;
+		background-color: rgb(100, 100, 100);
+		width: 100%;
+		height: 2px;
+	}
+	.services > div:nth-child(4) > div:nth-child(2) > div > p{
+		font-size: 1.2vw;
+		color: rgb(170, 170, 170);
+		text-align: center;
+	}
+	/******************************************fifth div********************************/
+	.services > div:nth-child(5) > img{
+		width: 100%;
+	}
+	/*************************************sixth div**********************************/
+	.services > div:nth-child(6){
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		position: absolute;
+		top:310vh;
+	}
+	.services > div:nth-child(6) > h1{
+		font-size: 6vw;
+		color: rgb(23, 23, 23);
+		margin: 2vw 0;
+	}
+	.services > div:nth-child(6) > a{
+		font-size: 3vw;
+		background-color: rgb(220 38 38);
+		color: rgb(229, 229, 229);
+		border: 2px solid transparent;
+		border-radius: 5vw;
+		padding: 1vw 0;
+		width: 20%;
+		text-align: center;
+		transition-duration: 0.25s;
+	}
+	.services > div:nth-child(6) > a:hover{
+		background-color: transparent;
+		color: rgb(220 38 38);
+		border-color: rgb(220 38 38);
+		width: 25%;
+	}
+}

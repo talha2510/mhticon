@@ -405,7 +405,7 @@
 	}
 	.about_us > div:nth-child(3) > div:nth-child(2) > div > p{
 		letter-spacing: 3px;
-		font-size: 2vh;
+		font-size: 1.5vh;
 		line-height: 30px;
 	}
 	/*********************************************fourth div*******************************************/
@@ -429,7 +429,7 @@
 	/*********************************************sixth div****************************************/
 	.about_us > div:nth-child(6){
 		width: 100vw;
-		height: 100vh;
+		height: 60vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -448,26 +448,23 @@
 
 	.about_us > div:nth-child(6) > div:nth-child(2){
 		position: absolute;
-		top: 385vh;
+		top: 368vh;
 		padding-left: 2vw;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > span{
-		font-size: 1vh;
-		margin-bottom: 1vh;
+		font-size: 1.5vh;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > h1{
-		font-size: 4vh;
-		margin-bottom: 1vh;
+		font-size: 3vh;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > p{
 		font-size: 1.5vh;
-		margin-bottom: 1vh;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > div{
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: center;
-		height: 50%;
+		height:35%;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > div > div > span:nth-child(2){
 		float:right;
@@ -487,14 +484,14 @@
 	.about_us > div:nth-child(6) > div:nth-child(2) > div > a{
 		border-radius: 2vh;
 		font-size: 2vh;
-		padding: 1vh 0vw;
+		padding: 1vh 0vh;
 		margin-right: 2vw;
 		margin-top: 5%;
 		transition-duration: 0.25s;
 		background-color: rgb(229, 229, 229);
 		color: rgb(23, 23, 23);
 		border: 2px solid rgb(23, 23, 23);
-		width: 30%;
+		width: 40%;
 		text-align: center;
 	}
 	.about_us > div:nth-child(6) > div:nth-child(2) > div > a:active{
@@ -513,11 +510,11 @@
 	/**********************************************eighth div*************************************/
 	.about_us > div:nth-child(8){
 		position: absolute;
-		top:520vh;
+		top:445vh;
 		width: 100vw;
 	}
 	.about_us > div:nth-child(8) > h1{
-		font-size: 5vw;
+		font-size: 5vH;
 		text-align: center;
 		margin-bottom: 1vw;
 		color: rgb(229 229 229);
@@ -525,9 +522,9 @@
 	.about_us > div:nth-child(8) > a{
 		display: block;
 		text-align: center;
-		font-size: 3vw;
+		font-size: 3vH;
 		padding: 1vw 0vh;
-		width: 25vw;
+		width: 55%;
 		margin: auto;
 		transition-duration: 0.25s;
 		border: 3px solid rgb(220, 38, 38);
@@ -539,6 +536,6 @@
 		background-color: transparent;
 		color: rgb(220 38 38);
 		border-color: rgb(220 38 38);
-		width: 30vw;
+		width: 60vw;
 	}
 }
