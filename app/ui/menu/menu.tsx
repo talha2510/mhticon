@@ -10,8 +10,8 @@ interface MenuProps{
 	menu_handler: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) =>
 }
 
-export default function Menu({menu_toggle,menu_handler}:MenuProps){
-	return(<div className={clsx("menu",{"menu_open": menu_toggle === true,"menu_close": menu_toggle === false})} id = "menu">
+const Menu: React.FC<MenuProps> = ({ menu_toggle, menu_handler }) => {
+  return (<div className={clsx("menu",{"menu_open": menu_toggle === true,"menu_close": menu_toggle === false})} id = "menu">
 		<h1 className = {roboto.className}>MHTICON</h1>
 		<div className = {roboto.className}>
 			<div>
