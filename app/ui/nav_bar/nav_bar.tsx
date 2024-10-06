@@ -25,6 +25,6 @@ export default function NavBar(){
 			<div className={clsx({"stick_rotate_left":menu_toggle===true, "stick_default":menu_toggle===false})}></div>
 			</button>
 		</div>
-		<Menu menu_toggle = {menu_toggle}/>
+		<Menu menu_toggle = {menu_toggle} menu_handler={menu_handler}/>
 	</>);
 }

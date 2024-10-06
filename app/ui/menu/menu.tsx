@@ -7,21 +7,22 @@ import clsx from "clsx";
 
 interface MenuProps{
 	menu_toggle:boolean;
+	menu_handler:void;
 }
 
-export default function Menu({menu_toggle}:MenuProps){
+export default function Menu({menu_toggle,menu_handler}:MenuProps){
 	return(<div className={clsx("menu",{"menu_open": menu_toggle === true,"menu_close": menu_toggle === false})} id = "menu">
 		<h1 className = {roboto.className}>MHTICON</h1>
 		<div className = {roboto.className}>
 			<div>
-				<div><Link href = "/">Home</Link></div>
-				<div><Link href = "/about_us">About Us</Link></div>
-				<div><Link href = "/our_client">Our Clients</Link></div>
-				<div><Link href = "/services">Services</Link></div>
+				<div><Link onClick={menu_handler} href = "/">Home</Link></div>
+				<div><Link onClick={menu_handler} href = "/about_us">About Us</Link></div>
+				<div><Link onClick={menu_handler} href = "/our_client">Our Clients</Link></div>
+				<div><Link onClick={menu_handler} href = "/services">Services</Link></div>
 			</div>
 			<div>
-				<div><Link href = "contact">Apply For Job</Link></div>
-				<div><Link href = "contact_us">Contacts Us</Link></div>
+				<div><Link onClick={menu_handler} href = "contact">Apply For Job</Link></div>
+				<div><Link onClick={menu_handler} href = "contact_us">Contacts Us</Link></div>
 				<div></div>
 				<div></div>
 				<div></div>
