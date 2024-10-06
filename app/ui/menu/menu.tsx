@@ -5,13 +5,13 @@ import Link from "next/link";
 import {roboto} from "@/app/ui/fonts";
 import clsx from "clsx";
 
-interface MenuProps{
-	menu_toggle:boolean;
-	menu_handler: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) =>
+interface MenuProps {
+  menu_toggle: boolean;
+  menu_handler: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
 }
 
-const Menu: React.FC<MenuProps> = ({ menu_toggle, menu_handler }) => {
-  return (<div className={clsx("menu",{"menu_open": menu_toggle === true,"menu_close": menu_toggle === false})} id = "menu">
+export default function Menu({menu_toggle,menu_handler}:MenuProps){
+	return(<div className={clsx("menu",{"menu_open": menu_toggle === true,"menu_close": menu_toggle === false})} id = "menu">
 		<h1 className = {roboto.className}>MHTICON</h1>
 		<div className = {roboto.className}>
 			<div>
