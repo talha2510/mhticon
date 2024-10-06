@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 interface MenuProps{
 	menu_toggle:boolean;
-	menu_handler:void;
+	menu_handler:MouseEvent;
 }
 
 export default function Menu({menu_toggle,menu_handler}:MenuProps){
