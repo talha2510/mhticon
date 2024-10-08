@@ -199,6 +199,7 @@
 	}
 	.contact div > form h1{
 		font-size: 3vw;
+		color: rgb(229, 229, 229);
 	}
 	.contact div > form input,.contact div > form textarea,.contact div > form select{
 		width: 80%;
