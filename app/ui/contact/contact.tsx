@@ -114,15 +114,6 @@ export default function Contact(){
 				<input type = "text" name = "full_name" placeholder = "*Full Name"/>
 				<input type = "number" name = "p_number" placeholder = "*Phone number"/>
 				<input type = "email" name = "email_address" placeholder = "*Email Address"/>
-				<select name = "field">
-				<option value = "Software Engineer">Software Engineer</option>
-				<option value = "Data Scientist">Data Scientist</option>
-				<option value = "Cybersecurity Specialist">Cybersecurity Specialist</option>
-				<option value = "Truck Driver">Truck Driver</option>
-				<option value = "Sales Representative">Sales Representative</option>
-				<option value = "Healthcare Support">Healthcare Support</option>
-				<option value = "Others">Others</option>
-				</select>
 				<textarea name = "message" placeholder = "*Message"/>
 				<input type = "submit" name = "submit" value = "Submit Request"/>
 			</form>
