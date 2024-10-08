@@ -58,7 +58,7 @@ export default function Services(){
 					</div>
 				</div>
 				<hr />
-				<Link className = {gowun_batang.className} href = "#">Lets Develop Together</Link>
+				<Link className = {gowun_batang.className} href = "/contact">Lets Develop Together</Link>
 				<span><Image src = "/services/phone_icon.png"
 					width = {256}
 					height = {256}
@@ -113,7 +113,7 @@ export default function Services(){
 		</div>
 		<div>
 			<h1 className = {montserrat.className}>Lets Grow Together</h1>
-			<Link href = "#" className = {gowun_batang.className}>Lets Go</Link>
+			<Link href = "/contact" className = {gowun_batang.className}>Lets Go</Link>
 		</div>
 	</div>);
 }

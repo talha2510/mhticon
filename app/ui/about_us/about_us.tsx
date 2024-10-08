@@ -112,7 +112,7 @@ export default function AboutUS(){
 						<hr />
 						<hr />
 					</div>
-					<Link href = "">Discover More</Link>
+					<Link href = "/services">Discover More</Link>
 				</div>
 			</div>
 		</div>
@@ -134,7 +134,7 @@ export default function AboutUS(){
 		</div>
 		<div className = {montserrat.className}>
 			<h1>Lets Connect Together</h1>
-			<Link href = "#">Contact Us</Link>
+			<Link href = "/contact">Contact Us</Link>
 		</div>
 	</div>);
 }

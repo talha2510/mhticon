@@ -21,8 +21,8 @@ export default function Menu({menu_toggle,menu_handler}:MenuProps){
 				<div><Link onClick={menu_handler} href = "/services">Services</Link></div>
 			</div>
 			<div>
-				<div><Link onClick={menu_handler} href = "contact">Apply For Job</Link></div>
-				<div><Link onClick={menu_handler} href = "contact_us">Contacts Us</Link></div>
+				<div><Link onClick={menu_handler} href = "/contact">Apply For Job</Link></div>
+				<div><Link onClick={menu_handler} href = "/contact">Contacts Us</Link></div>
 				<div></div>
 				<div></div>
 				<div></div>
@@ -30,8 +30,8 @@ export default function Menu({menu_toggle,menu_handler}:MenuProps){
 		</div>
 		<hr />
 		<div>
-			<div><Link className = {roboto.className} href = "#">Contact Us</Link></div>
-			<div><Link className = {roboto.className} href = "#">Privacy Policy</Link></div>
+			<div><Link className = {roboto.className} href = "/contact">Contact Us</Link></div>
+			<div><Link className = {roboto.className} href = "/privacy">Privacy Policy</Link></div>
 		</div>
 		<hr />
 	</div>);

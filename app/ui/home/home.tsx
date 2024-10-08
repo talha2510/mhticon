@@ -11,7 +11,7 @@ export default function Home(){
 				<h1>JOB SEEKERS</h1>
 				<h1>We help candidates find the perfect job.</h1>
 				<h1>Head over to our job portal and get started by sending us your CV.</h1>
-				<Link className = {montserrat.className} href = "contact">Start applying now</Link>
+				<Link className = {montserrat.className} href = "/contact">Start applying now</Link>
 			</div>
 		</div>
 		<div className = {home_intro_styles.home_intro_wrapper}>
@@ -20,7 +20,7 @@ export default function Home(){
 				<h1>We provide staffing solutions for our clients.</h1>
 				<h1>Get the best Recruitment, HR and Payrolling
 				services all under one roof.</h1>
-				<Link className = {montserrat.className} href = "contact">View Our Services</Link>
+				<Link className = {montserrat.className} href = "/contact">View Our Services</Link>
 			</div>
 		</div>
 		</div>

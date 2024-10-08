@@ -9,7 +9,7 @@ export default function OurClient(){
 		<div>
 			<h1 className = {lora.className}>Empowering Your Workforce with Expert HR Solution</h1>
 			<p className = {montserrat.className}>Unlock the full potential of your team with our tailored HR solutions. We provide expert guidance and innovative strategies to help you build a dynamic and efficient workforce</p>
-			<Link className = {gowun_batang.className} href = "#">Connect with us</Link>
+			<Link className = {gowun_batang.className} href = "/contact">Connect with us</Link>
 		</div>
 		<div>
 			<div>
@@ -31,7 +31,7 @@ export default function OurClient(){
 			<div>
 				<h1 className = {lora.className}>Trusted by Industry Leaders</h1>
 				<p className = {montserrat.className}>Our esteemed clients include some of the biggest names across various sectors. We specialize in providing top-tier manpower and HR consultancy services tailored to meet the unique needs of each organization.</p>
-				<Link href = "#">lets go</Link>
+				<Link href = "/contact">lets go</Link>
 			</div>
 		</div>
 		<div>
@@ -66,7 +66,7 @@ export default function OurClient(){
 		</div>
 		<div>
 			<h1 className = {gowun_batang.className}>You Are One Click Away To Become Bull</h1>
-			<Link className = {montserrat.className} href = "#">Enroll Now</Link>
+			<Link className = {montserrat.className} href = "/contact">Enroll Now</Link>
 		</div>
 	</div>);
 }
