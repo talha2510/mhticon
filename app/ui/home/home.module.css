@@ -532,7 +532,7 @@
 	/**************************************second div*********************************/
 	.home_intro > div:nth-child(2){
 		width: 100vw;
-		height: 70vh;
+		height: 80vh;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -540,8 +540,6 @@
 		background-color: rgb(241 245 249);
 	}
 	.home_intro > div:nth-child(2) > div:nth-child(1){
-/*		border:1px solid black;*/
-		box-shadow: 0 0 4px rgb(8, 8, 8);
 		border-radius: 2vw;
 		width: 90%;
 		height: 90%;
@@ -552,10 +550,10 @@
 		justify-content: space-evenly;
 	}
 	.home_intro > div:nth-child(2) > div > p{
-		font-size: 1.6vh;color: rgb(8, 8, 8);
+		font-size: 1.7vh;color: rgb(8, 8, 8);
 		box-shadow: 0 0 2px rgb(8, 8, 8);
 		padding: 2.5%;
-		border-radius: 1vw;
+		border-radius: 2vw;
 	}
 
 
@@ -649,12 +647,12 @@
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top:404vh;
+		top:414vh;
 		right: 24vw;
 		width: 50%;
 		height: 6vh;
 		border:1px solid rgb(241, 245, 249);
-		border-radius:1vh;
+		border-radius:1vw;
 		background-color: rgb(8, 8, 8);
 	}
 
@@ -710,7 +708,7 @@
 	/****************************************fifth div********************************/
 	.home_intro > div:nth-child(5){
 		width: 100vw;
-		height:70vh;
+		height:100vh;
 		background-color: rgb(244 244 245);
 		display: flex;
 		flex-direction: column;
@@ -720,24 +718,25 @@
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(1){
-		font-size: 2vw;
-		height: 20vh;
+		font-size: 2vh;
+		height: w20vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top:335vh;
-		right: 40vw;
-		width: 20%;
-		height: 10VH;
+		top:534vh;
+		right: 25vw;
+		width: 50%;
+		height: 5vh;
 		border:1px solid rgb(8, 8, 8);
-		border-radius:1vh;
+		border-radius:1vw;
 		background-color: rgb(244, 244, 245);
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(2){
-		height: 40vh;
+		height: 120vh;
 		display: inline-flex;
+		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
 		border:1px solid rgb(8 8 8);
@@ -745,32 +744,35 @@
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(2) > div{
-		width: 33.33%;
-		padding: 0 1vh;
-		height: 80%;
+		width: 90%;
+		padding: 0 1vw;
+		height: 33.333%;
 		display: inline-flex;
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: center;
 		align-items: center;
-		border-left: 1px solid rgb(8 8 8);
-		border-right: 1px solid rgb(8 8 8);;
+		border-top: 1px solid rgb(8 8 8);
+		border-bottom: 1px solid rgb(8 8 8);;
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(1){
-		border-left: none;
+		border-top: none;
 	}
-	
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(2){
+		border-top: none;
+	}
 	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(3){
-		border-right: none;
+		border-top: none;
+		border-bottom: none;
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(2) > div > h1{
-		font-size: 2vw;
+		font-size: 3vh;
 		text-align: center;
 	}
 
 	.home_intro > div:nth-child(5) > div:nth-child(2) > div > p{
-		font-size: 1.3vw;
+		font-size: 2vh;
 		text-align: center;
 	}
 
