@@ -30,7 +30,7 @@ export default function Home(){
 				<p className={montserrat.className}>MHTICON is one of the most preferred staffing and HR solutions partners for many in the region. We have proven our services with our industry leading NPS (Net Promotor Score) of 74.7% in 2022. We hire and manage associates with world-class services to employers as well as their employees.</p>
 				<p className={montserrat.className}>Attracting and retaining employees is vital for all businesses. While you continue to scale your business, MHTICON will ensure you have the right talent to deliver that success.</p>
 				<p className={montserrat.className}>Our 40+ dedicated team of recruiters use their experience, tools, and resources, including in-depth market mapping and constantly updated market intelligence, to identify and recruit candidates for your business needs.</p>
-				<p className={montserrat.className}>With a wealth of proven successes behind us we will deliver the best people for the job - no matter the seniority.</p>
+				<p className={montserrat.className}>With a wealth of proven successes behind us, we will deliver the best people for the job - no matter the seniority.</p>
 			</div>
 			<div>
 				<Image
