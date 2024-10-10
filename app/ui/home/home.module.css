@@ -17,7 +17,7 @@
 	.home_intro_1{
 		height: 100%;
 		width: 100%;
-		background-color: rgb(27 27 27);
+		background-color: rgb(8 8 8);
 		padding-left:5%;
 		padding-top: 10%;
 		transition-duration: 0.5s;
@@ -27,7 +27,7 @@
 		height: 99%;
 		width:100%;
 		margin:0.25% 0% 0% 0.5%;
-		background-color: rgb(37 37 37);
+		background-color: rgb(23 23 23);
 	}
 
 	.home_intro_1 h1:nth-child(1){
@@ -81,7 +81,7 @@
 	.home_intro_2{
 		height: 100%;
 		width: 100%;
-		background-color: rgb(245 245 245);
+		background-color: rgb(241 245 249);
 		padding-left:5%;
 		padding-top: 10%;
 	}
@@ -135,33 +135,274 @@
 		color: rgb(241 245 249);
 	}
 
+	/**************************************second div*********************************/
 	.home_intro > div:nth-child(2){
-		display: flex;
-		flex-direction: column;
-	}
-
-	.home_intro > div:nth-child(2) > h1{
-		text-align: center;
-		font-size: 3vw;
-	}
-	.home_intro > div:nth-child(2) > hr{
-		width:15vw;
-		margin: auto;
-		margin-bottom: 5vh;
-	}
-
-	.home_intro > div:nth-child(2) > div{
+		width: 100vw;
+		height: 90vh;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		background-color: rgb(241 245 249);
+		padding: 5vw 0 0 5vw;
+	}
+	.home_intro > div:nth-child(2) > div{
+		height: 100%;
+		display: inline-flex;
+		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: white;
+		align-items: center;
+		background-color: transparent;
+		padding: 0 5vw;
+	}
+	.home_intro > div:nth-child(2) > div:nth-child(1){
+		border:1px solid black;
+		border-radius: 2vh;
+		width: 55%;
+		background-color: rgba(244, 244, 246, 0.1);
+	}
+	.home_intro > div:nth-child(2) > div:nth-child(2){
+		width: 40%;
+		padding: 0;
+	}
+	.home_intro > div:nth-child(2) > div > p{
+		font-size: 1.3vw;color: rgb(8, 8, 8);
+	}
+	.home_intro > div:nth-child(2) > div > img{
+		width: 70%;
+		border-radius: 1vw;
 	}
 
-	.home_intro > div:nth-child(2) > div > img:nth-child(3){
-		width: 13vw;
+
+	/******************************************third div*****************************************/
+	.home_intro > div:nth-child(3){
+		width: 100vw;
+		height: 65vh;
+		background-color: rgb(241 245 249);
+		color: rgb(10 10 10);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2.5vh 0;
 	}
+
+	.home_intro > div:nth-child(3) > div{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.home_intro > div:nth-child(3) > div:nth-child(1){
+		height: 20vh;
+		width: 80%;
+	}
+	.home_intro > div:nth-child(3) > div:nth-child(2){
+		height: 40vh;
+		width: 80%;
+		flex-wrap: wrap;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(1) > h1{
+		font-size: 3vw;
+		border-bottom: 1px solid black;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 20%;
+		flex-wrap: wrap;
+		border-left:1px solid;
+		border-right:1px solid;
+		border-color: rgb(82 82 82);
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div:nth-child(5){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div > h1{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div > img{
+		width: 40%;
+	}
+
+	/****************************************fourth div********************************/
+	.home_intro > div:nth-child(4){
+		width: 100vw;
+		height:70vh;
+		background-color: rgb(8, 8, 8);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: rgb(244 244 245);
+		padding: 5vh 10vw;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(1){
+		font-size: 2vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top:265vh;
+		right: 40vw;
+		width: 20%;
+		height: 10VH;
+		border:1px solid rgb(241, 245, 249);
+		border-radius:1vh;
+		background-color: rgb(8, 8, 8);
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2){
+		height: 40vh;
+		display: inline-flex;
+		justify-content: space-evenly;
+		align-items: center;
+		border:1px solid rgb(241 245 249);
+		border-radius: 2vh;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div{
+		width: 20%;
+		height: 30%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		border-left: 1px solid rgb(241 245 249);
+		border-right: 1px solid rgb(241 245 249);;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+	
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div:nth-child(5){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div > h1{
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div > p{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+
+	/****************************************fifth div********************************/
+	.home_intro > div:nth-child(5){
+		width: 100vw;
+		height:70vh;
+		background-color: rgb(244 244 245);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: rgb(8 8 8);
+		padding: 5vh 10vw;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(1){
+		font-size: 2vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top:335vh;
+		right: 40vw;
+		width: 20%;
+		height: 10VH;
+		border:1px solid rgb(8, 8, 8);
+		border-radius:1vh;
+		background-color: rgb(244, 244, 245);
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2){
+		height: 40vh;
+		display: inline-flex;
+		justify-content: space-evenly;
+		align-items: center;
+		border:1px solid rgb(8 8 8);
+		border-radius: 2vh;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div{
+		width: 33.33%;
+		padding: 0 1vh;
+		height: 80%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		border-left: 1px solid rgb(8 8 8);
+		border-right: 1px solid rgb(8 8 8);;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+	
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(3){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div > h1{
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div > p{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+	/**************************** sixth div*********************************/
+
+	.home_intro > div:nth-child(6){
+		width: 100vw;
+		height: 60vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(8, 8, 8);
+		color: rgb(240, 240, 244);
+	}
+
+	.home_intro > div:nth-child(6) > div{
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		height: 100%;
+		padding: 0% 10%;
+	}
+
+	.home_intro > div:nth-child(6) > div > h1{
+		font-size: 3vw;
+	}
+
+	.home_intro > div:nth-child(6) > div > ul > li,.home_intro > div:nth-child(6) > div > ul > li::before {
+		list-style: disc;
+		color: rgb(200, 200, 200);
+		font-size: 1.5vw;
+	}
+
 }
+
+
+
 
 
 
@@ -312,6 +553,232 @@
 	}
 
 	.home_intro > div:nth-child(2) > div > img:nth-child(3){
-		width: 13vw;
+		width: 13zvw;
+	}
+
+	/******************************************third div*****************************************/
+	.home_intro > div:nth-child(3){
+		width: 100vw;
+		height: 65vh;
+		background-color: rgb(241 245 249);
+		color: rgb(10 10 10);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2.5vh 0;
+	}
+
+	.home_intro > div:nth-child(3) > div{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.home_intro > div:nth-child(3) > div:nth-child(1){
+		height: 20vh;
+		width: 80%;
+	}
+	.home_intro > div:nth-child(3) > div:nth-child(2){
+		height: 40vh;
+		width: 80%;
+		flex-wrap: wrap;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(1) > h1{
+		font-size: 3vw;
+		border-bottom: 1px solid black;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 20%;
+		flex-wrap: wrap;
+		border-left:1px solid;
+		border-right:1px solid;
+		border-color: rgb(82 82 82);
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div:nth-child(5){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div > h1{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(3) > div:nth-child(2) > div > img{
+		width: 40%;
+	}
+
+	/****************************************fourth div********************************/
+	.home_intro > div:nth-child(4){
+		width: 100vw;
+		height:70vh;
+		background-color: rgb(8, 8, 8);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: rgb(244 244 245);
+		padding: 5vh 10vw;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(1){
+		font-size: 2vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top:265vh;
+		right: 40vw;
+		width: 20%;
+		height: 10VH;
+		border:1px solid rgb(241, 245, 249);
+		border-radius:1vh;
+		background-color: rgb(8, 8, 8);
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2){
+		height: 40vh;
+		display: inline-flex;
+		justify-content: space-evenly;
+		align-items: center;
+		border:1px solid rgb(241 245 249);
+		border-radius: 2vh;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div{
+		width: 20%;
+		height: 30%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		border-left: 1px solid rgb(241 245 249);
+		border-right: 1px solid rgb(241 245 249);;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+	
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div:nth-child(5){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div > h1{
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(4) > div:nth-child(2) > div > p{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+
+	/****************************************fifth div********************************/
+	.home_intro > div:nth-child(5){
+		width: 100vw;
+		height:70vh;
+		background-color: rgb(244 244 245);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: rgb(8 8 8);
+		padding: 5vh 10vw;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(1){
+		font-size: 2vw;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top:335vh;
+		right: 40vw;
+		width: 20%;
+		height: 10VH;
+		border:1px solid rgb(8, 8, 8);
+		border-radius:1vh;
+		background-color: rgb(244, 244, 245);
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2){
+		height: 40vh;
+		display: inline-flex;
+		justify-content: space-evenly;
+		align-items: center;
+		border:1px solid rgb(8 8 8);
+		border-radius: 2vh;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div{
+		width: 33.33%;
+		padding: 0 1vh;
+		height: 80%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		border-left: 1px solid rgb(8 8 8);
+		border-right: 1px solid rgb(8 8 8);;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(1){
+		border-left: none;
+	}
+	
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div:nth-child(3){
+		border-right: none;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div > h1{
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.home_intro > div:nth-child(5) > div:nth-child(2) > div > p{
+		font-size: 1.3vw;
+		text-align: center;
+	}
+
+	/**************************** sixth div*********************************/
+
+	.home_intro > div:nth-child(6){
+		width: 100vw;
+		height: 60vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(8, 8, 8);
+		color: rgb(240, 240, 244);
+	}
+
+	.home_intro > div:nth-child(6) > div{
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		height: 100%;
+		padding: 0% 10%;
+	}
+
+	.home_intro > div:nth-child(6) > div > h1{
+		font-size: 3vw;
+	}
+
+	.home_intro > div:nth-child(6) > div > ul > li,.home_intro > div:nth-child(6) > div > ul > li::before {
+		list-style: disc;
+		color: rgb(200, 200, 200);
+		font-size: 1.5vw;
 	}
 }
