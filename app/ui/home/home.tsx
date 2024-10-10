@@ -76,7 +76,7 @@ export default function Home(){
 				</div>
 				<div>
 					<Image
-					src="/home/Analytics.svg"
+					src="/home/analytics.svg"
 					width={70}
 					height={70}
 					alt="/home/calculator.svg"
