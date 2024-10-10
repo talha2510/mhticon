@@ -32,7 +32,7 @@ export default function Home(){
 				<p className={montserrat.className}>Our 40+ dedicated team of recruiters use their experience, tools, and resources, including in-depth market mapping and constantly updated market intelligence, to identify and recruit candidates for your business needs.</p>
 				<p className={montserrat.className}>With a wealth of proven successes behind us, we will deliver the best people for the job - no matter the seniority.</p>
 			</div>
-			<div>
+			<div className="hidden sm:inline">
 				<Image
 				src="/home/home_image_1.jpg"
 				width={500}
@@ -132,7 +132,7 @@ export default function Home(){
 			<div>
 				<h1>OUR Services</h1>
 			</div>
-			<div>\
+			<div>
 				<div>
 					<h1>CONTRACT STAFFING</h1>
 					<p>Short & long-term contract staffing solutions On our visa, payroll management & PRO outsourcing</p>
