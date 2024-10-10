@@ -1,6 +1,6 @@
 import home_intro_styles from "@/app/ui/home/home.module.css";
 import Link from "next/link";
-import { lora , montserrat } from "@/app/ui/fonts";
+import { lora , montserrat , gowun_batang} from "@/app/ui/fonts";
 import Image from "next/image";
 
 export default function Home(){
@@ -26,7 +26,7 @@ export default function Home(){
 		</div>
 		
 		<div>
-			<div>
+			<div className={gowun_batang.className}>
 				<p className={montserrat.className}>MHTICON is one of the most preferred staffing and HR solutions partners for many in the region. We have proven our services with our industry leading NPS (Net Promotor Score) of 74.7% in 2022. We hire and manage associates with world-class services to employers as well as their employees.</p>
 				<p className={montserrat.className}>Attracting and retaining employees is vital for all businesses. While you continue to scale your business, MHTICON will ensure you have the right talent to deliver that success.</p>
 				<p className={montserrat.className}>Our 40+ dedicated team of recruiters use their experience, tools, and resources, including in-depth market mapping and constantly updated market intelligence, to identify and recruit candidates for your business needs.</p>
@@ -79,7 +79,7 @@ export default function Home(){
 					src="/home/Analytics.svg"
 					width={70}
 					height={70}
-					alt="calculator"
+					alt="/home/calculator.svg"
 					/>
 					<h1>Analytics & reporting</h1>
 				</div>

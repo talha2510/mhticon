@@ -532,7 +532,7 @@
 	/**************************************second div*********************************/
 	.home_intro > div:nth-child(2){
 		width: 100vw;
-		height: 80vh;
+		height: 100vh;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -550,8 +550,8 @@
 		justify-content: space-evenly;
 	}
 	.home_intro > div:nth-child(2) > div > p{
-		font-size: 1.7vh;color: rgb(8, 8, 8);
-		box-shadow: 0 0 2px rgb(8, 8, 8);
+		font-size: 2vh;color: rgb(8, 8, 8);
+/*		box-shadow: 0 0 2px rgb(8, 8, 8);*/
 		padding: 2.5%;
 		border-radius: 2vw;
 	}
@@ -647,7 +647,7 @@
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top:414vh;
+		top:424vh;
 		right: 24vw;
 		width: 50%;
 		height: 6vh;
@@ -724,7 +724,7 @@
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top:534vh;
+		top:554vh;
 		right: 25vw;
 		width: 50%;
 		height: 5vh;
