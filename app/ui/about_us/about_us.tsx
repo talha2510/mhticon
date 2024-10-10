@@ -5,7 +5,6 @@ import Link from "next/link";
 
 export default function AboutUS(){
 	return(<div className = {`${about_us_styles.about_us} ${roboto.className}`}>
-		you&apos;re free
 		<div>
 			<Image
 				src = "/about_us/about_us_banner_desktop_image.jpg"
@@ -81,6 +80,7 @@ export default function AboutUS(){
 				width = {1920}
 				height = {2880}
 				alt = "about us desktop and mobile image 3"
+				className="hidden sm:block"
 				/>
 			</div>
 			<div className = {montserrat.className}>
