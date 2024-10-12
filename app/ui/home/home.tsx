@@ -150,7 +150,7 @@ export default function Home(){
 
 		<div>
 			<div>
-				<h1 className={montserrat.className}>WHY TASC?</h1>
+				<h1 className={montserrat.className}>WHY MHTICON?</h1>
 				<ul className={lora.className}>
 					<li>Get the right candidate resumes in 48 hours</li>
 					<li>An exclusive database of 900,000+ candidates</li>
@@ -160,6 +160,32 @@ export default function Home(){
 			</div>
 			<div>
 				<h1 className={montserrat.className}>Work With The Top Recruitment Agency In UAE!</h1>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<h1 className={lora.className}>For Companies</h1>
+				<form className={lora.className}>
+					<input type="text" name="name" placeholder="Name/position e.g (jhon/HR)" required/>
+					<input type="text" name="company_name" placeholder="company e.g (mhticon)" required/>
+					<input type="number" name="email" placeholder="email e.g (abc@email.com)" required/>
+					<input type="email" name="phone_number" placeholder="phone No. e.g (123----)" required/>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<input className={gowun_batang.className}type="submit" name="submit" value="submit" />
+				</form>
+			</div>
+			<div></div>
+			<div>
+				<h1 className={lora.className}>For Job Seekers</h1>
+				<form className={lora.className}>
+					<input type="text" name="name" placeholder="Name e.g (jhon)" required/>
+					<input type="text" name="field" placeholder="field e.g (web dev,project manager etc)" required/>
+					<input type="number" name="email" placeholder="email e.g (abc@email.com)" required/>
+					<input type="email" name="phone_number" placeholder="phone No. e.g (123----)" required/>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<input className={gowun_batang.className} type="submit" name="submit" value="submit" />
+				</form>
 			</div>
 		</div>
 	</div>);

@@ -206,6 +206,7 @@
 		width: 20%;
 		height: 2px;
 	}
+
 	.about_us > div:nth-child(6) > div:nth-child(2) > div > a{
 		border-radius: 2vw;
 		font-size: 1.5vw;
@@ -385,6 +386,7 @@
 		padding: 1vh;
 		margin: 1vw 0vh;
 		transition-duration: 0.25s;
+		display: block;
 	}
 	.about_us > div:nth-child(3) > div:nth-child(1) > div > div:nth-child(2) > a:nth-child(1){
 		background-color: rgb(23, 23, 23);
@@ -425,7 +427,7 @@
 	.about_us > div:nth-child(5){
 		position: absolute;
 		z-index: 0;
-		top:240vh;
+		top:230vh;
 		font-size: 6vh;
 		text-align: center;
 		width: 100vw;

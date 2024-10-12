@@ -81,6 +81,7 @@ export default function Contact(){
 			</div>
 			<div className = {gowun_batang.className}>
 				<div>
+					<h1 className="sm:hidden">For Companies only</h1>
 					<input type = "text" name = "full_name" placeholder = "*Full Name"/>
 					<input type = "email"name = "email_address"placeholder = "*Email Address" />
 				</div>
