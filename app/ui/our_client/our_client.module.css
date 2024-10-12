@@ -11,7 +11,7 @@
 		margin-top: 10vh;
 		height: 80vh;
 		padding: 10vh 0;
-		background-color: rgb(23 23 23);
+		background-color: rgb(8	8 8);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -37,8 +37,8 @@
 		text-align: center;
 		width: 20%;
 		padding: 1vw 0;
-		border-radius: 5vw;
-		color: rgb(229, 229, 229);
+		border-radius: 2vh;
+		color: rgb(244, 244, 244);
 		background-color: rgb(220, 38, 38);
 		border: 3px solid transparent;
 	}
@@ -89,18 +89,20 @@
 		font-size: 1.5vw;
 		text-align: center;
 		transition-duration: 0.25s;
-		border: 3px solid rgb(220, 38, 38);
+		border: 1px solid rgb(220, 38, 38);
 		color: rgb(220, 38, 38);
 		background-color: transparent;
-		width: 20%;
-		border-radius: 5vw;
+		width: 30%;
+		border-radius: 2vh;
+		padding: 1vh 1vh;
 	}
 	.our_client > div:nth-child(2) > div:nth-child(2) > a:hover{
 		border: 3px solid transparent;
 		background-color: rgb(220, 38, 38);
 		color: rgb(229, 229, 229);
-		width: 25%;
+		width: 40%;
 	}
+
 	.our_client > div:nth-child(3){
 		display: flex;
 		background-color: rgb(229, 229, 229);
@@ -128,7 +130,7 @@
 	}
 	.our_client > div:nth-child(5) > h1{
 		text-align: center;
-		font-size: 4vw;
+		font-size: 3vw;
 		color: rgb(220, 38, 38);
 		margin: 1vw;
 	}
@@ -140,8 +142,8 @@
 		background-color: transparent;
 		border: 3px solid rgb(220, 38, 38);
 		color: rgb(220, 38, 38);
-		border-radius: 5vw;
-		padding: 1vw 0;
+		border-radius: 2vh;
+		padding: 1vh 0;
 		transition-duration: 0.25s;
 		margin: auto;
 	}
@@ -189,8 +191,8 @@
 	.our_client > div:nth-child(1) > h1{
 		width: 80%;
 		text-align: center;
-		color: rgb(229 229 229);
-		font-size: 4vh;
+		color: rgb(244 244 244);
+		font-size: 3vh;
 	}
 	.our_client > div:nth-child(1) > p{
 		font-size: 2vh;
@@ -200,11 +202,11 @@
 	}
 	.our_client > div:nth-child(1) > a{
 		transition-duration: 0.25s;
-		font-size: 3vh;
+		font-size: 2vh;
 		width: 70%;
 		text-align: center;
 		padding: 1vw 0;
-		border-radius: 5vw;
+		border-radius: 2vw;
 		color: rgb(229, 229, 229);
 		background-color: rgb(220, 38, 38);
 		border: 3px solid transparent;
@@ -242,33 +244,33 @@
 		width: 100%;
 	}
 	.our_client > div:nth-child(2) > div:nth-child(2) > h1{
-		color:rgb(23, 23, 23);
-		font-size: 4vh;
+		color:rgb(8, 8, 8);
+		font-size: 3vh;
 		text-align: center;
 		width: 80%;
 	}
 	.our_client > div:nth-child(2) > div:nth-child(2) > p{
-		color:rgb(100, 100, 100);
+		color:rgb(60, 60, 60);
 		font-size: 2vh;
 		text-align: center;
 		width: 80%;
 	}
 	.our_client > div:nth-child(2) > div:nth-child(2) > a{
 		color:rgb(23, 23, 23);
-		font-size: 3vh;
+		font-size: 2vh;
 		text-align: center;
 		transition-duration: 0.25s;
-		border: 3px solid rgb(220, 38, 38);
+		border: 1px solid rgb(220, 38, 38);
 		color: rgb(220, 38, 38);
 		background-color: transparent;
-		width: 60%;
-		border-radius: 5vw;
+		width: 50%;
+		border-radius: 2vw;
 	}
 	.our_client > div:nth-child(2) > div:nth-child(2) > a:active{
 		border: 3px solid transparent;
 		background-color: rgb(220, 38, 38);
 		color: rgb(229, 229, 229);
-		width: 70;
+		width: 60;
 	}
 	.our_client > div:nth-child(3){
 		display: flex;
@@ -297,20 +299,20 @@
 	}
 	.our_client > div:nth-child(5) > h1{
 		text-align: center;
-		font-size: 5vh;
+		font-size: 4vh;
 		width: 80%;
 		color: rgb(220, 38, 38);
 		margin: auto;
 	}
 	.our_client > div:nth-child(5) > a{
 		display: block;
-		font-size: 3vh;
+		font-size: 2vh;
 		text-align: center;
 		width: 60%;
 		background-color: rgb(220, 38, 38);
 		border: 3px solid transparent;
 		color: rgb(229, 229, 229);
-		border-radius: 5vw;
+		border-radius: 2vw;
 		padding: 1vw 0;
 		transition-duration: 0.25s;
 		margin: auto;

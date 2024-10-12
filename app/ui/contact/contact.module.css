@@ -1,3 +1,12 @@
+.contact input::-webkit-outer-spin-button,
+.contact input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.contact input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @media only screen and (min-width:642px){
 	.contact{
 		padding-top: 10vh;
@@ -6,7 +15,8 @@
 
 	.contact > div:nth-child(1){
 		width: 100vw;
-		height: 90vh;
+		height: 80vh;
+		overflow-y: hidden;
 	}
 	.contact > div:nth-child(1) > img{
 		width: 100%;
@@ -18,12 +28,12 @@
 		flex-direction: column;
 		justify-content: space-evenly;
 		position: absolute;
-		top: 30vh;
+		top: 25vh;
 		background-color: rgba(8, 8, 8, 0.4);
 		padding: 3vw 3vw;
 	}
 	.contact > div:nth-child(2) > h1{
-		font-size: 4vw;
+		font-size: 3vw;
 		padding: 2vh 0;
 		letter-spacing: 5px;
 	}
@@ -49,9 +59,9 @@
 	.contact > div:nth-child(3){
 		width: 100vw;
 		display: flex;
-		padding: 3vw 3vw;
+		align-items: center;
 		height: 120vh;
-		background-color: rgb(229, 229, 229);
+		background-color: rgb(244, 244, 244);
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1){
@@ -60,32 +70,31 @@
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-		margin-top: 6vh;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1){
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-		height: 20%;
+		height: 35%;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h1{
-		font-size: 2.5vw;
-		color: rgb(23, 23, 23);
+		font-size: 2vw;
+		color: rgb(8, 8, 8);
 		text-align: center;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > p{
 		font-size: 1.3vw;
-		color: rgb(82, 82, 82);
+		color: rgb(60, 60, 60);
 		text-align: center;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2){
 		display: inline-flex;
 		flex-direction: column;
-		height: 80%;
+		height: 65%;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div{
@@ -98,36 +107,42 @@
 		justify-content: space-evenly;
 		align-items: center;
 		width: 50%;
-		padding: 2.5%;
+		padding: 2vh 0;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > h1{
-		font-size: 1.5vw;
-		padding: 1vh 0;
-		color: rgb(23, 23, 23);
-	}
-	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > p{
 		font-size: 1.3vw;
 		padding: 1vh 0;
-		color: rgb(82, 82, 82);
+		color: rgb(8, 8, 8);
+	}
+	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > p{
+		font-size: 1vw;
+		padding: 1vh 0;
+		color: rgb(80, 80, 80);
 	}
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > img{
-		width: 20%;
+		width: 15%;
 		padding: 1vh 0;
 	}
 
-	.contact > div:nth-child(3) > div:nth-child(2){
-		width: 50%;
-		height: 100%;
+	.contact > div:nth-child(3) > form{
+		width: 47%;
+		height: 94%;
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		background-color: rgb(23,23,23);
-		border-radius: 2vw;
+		border-radius: 2vh;
+		background-color: rgb(244, 244, 244);
+		border:1px solid rgb(8, 8, 8);
+
 	}
-	.contact > div:nth-child(3) > div:nth-child(2) > div{
-		width: 80%;
+	.contact > div:nth-child(3) > form > h1{
+		color: rgb(8, 8, 8);
+		font-size: 2vw;
+	}
+	.contact > div:nth-child(3) > form > div{
+		width: 100%;
 		display: inline-flex;
 		flex-direction: row;
 		justify-content: space-evenly;
@@ -138,97 +153,121 @@
 		border: none;
 		transition-duration: 0.25s;
 		width: 45%;
-		border-radius: 1vw;
-		padding: 1vw 0;
+		border: 1px solid rgb(160, 160, 160);
+		border-radius: 1vH;
+		padding: 1vh 0;
 		text-align: center;
 		font-size: 1.3vw;
-		color: rgb(23, 23, 23);
+		background-color: rgb(242, 242, 242);
+		color: rgb(8, 8, 8);
+		outline: none;
 	}
-	.contact input:active, .contact textarea:active, .contact select:active{
-		border-color: transparent;
+
+	.contact > div:nth-child(3) form > div:nth-child(2) input{
+		width: 80%;
+	}
+	.contact input:hover, .contact textarea:hover, .contact select:hover{
+		border-color: rgb(8, 8, 8);
 	}
 
 
-	.contact > div:nth-child(3) > div:nth-child(2) > div > textarea{
-		width: 100%;
+	.contact > div:nth-child(3) > form > div > textarea{
+		width: 90%;
 		color: rgb(23, 23, 23);
-		height: 40vh;
+		height: 30vh;
 		font-size: 1.3vw;
 	}
 
-	.contact > div:nth-child(3) > div:nth-child(2) > button{
+	.contact > div:nth-child(3) > form > button{
 		width: 40%;
-		padding: 1vw 0;
+		padding: 1vh 0;
 		font-size: 1.5vw;
-		border: 3px solid transparent;
+		border: 1px solid transparent;
 		background-color: rgb(220, 30, 30);
-		color: rgb(229, 229, 229);
+		color: rgb(244, 244, 244);
 		transition-duration: 0.25s;
-		border-radius: 1vw;
+		border-radius: 1vh;
 	}
-	.contact > div:nth-child(3) > div:nth-child(2) > button:hover{
+	.contact > div:nth-child(3) > form > button:hover{
 		width: 50%;
 		background-color: transparent;
 		color: rgb(220, 30, 30);
 		border-color: rgb(220, 30, 30);
 	}
-	.contact > div:nth-child(3) > div:nth-child(2) > button:active{
+	.contact > div:nth-child(3) > form > button:active{
 		background-color: rgb(220, 30, 30);
 		color: rgb(229, 229, 229);
 	}
 	/*******************************************fourth div********************************************/
+	
+	.contact div:nth-child(4) >h1{
+		font-size: 2vw;
+		color: rgb(229, 229, 229);
+		position: absolute;
+		top:216.5vh;
+		padding: 1vh;
+		width: 20%;
+		text-align: center;
+		background-color: rgba(8, 8, 8);
+		border: 1px solid rgb(244, 244, 244);
+		border-radius:1vh ;
+	}
+
 	.contact > div:nth-child(4){
 		width: 100vw;
-		height: 110vh;
-		background-color: rgb(229, 229, 229);
+		height: 130vh;
+		background-color: rgb(8, 8, 8);
 		color: rgb(23, 23, 23);
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		padding: 5vw 0;
 	}
-	.contact div > form{
+	.contact div:nth-child(4) > form{
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		width: 50%;
+		width: 40%;
 		height: 100%;
-		background-color: rgb(23, 23, 23);
-		border-radius: 2vw;
+		border-radius: 2vh;
+		border: 1px solid rgb(244, 244, 244);
 	}
-	.contact div > form h1{
-		font-size: 3vw;
-		color: rgb(229, 229, 229);
-	}
-	.contact div > form input,.contact div > form textarea,.contact div > form select{
+	
+	.contact div:nth-child(4) > form input,.contact div:nth-child(4) > form textarea,.contact div:nth-child(4) > form select{
 		width: 80%;
-		border-radius: 1vw;
-		padding: 1vw 0;
+		border-radius: 1vh;
+		padding: 1vh 0;
 		text-align: center;
 		resize: none;
 		font-size: 1.3vw;
+		color:rgb(244, 244, 244);
+		background-color: rgb(15, 15, 15);
+		border: 1px solid rgb(144, 144, 144);
+		outline:none;
 	}
-	.contact div > form textarea{
+	.contact div:nth-child(4) > form textarea{
 		height: 30%;
 	}
-	.contact div > form input[type = "submit"]{
+	.contact div:nth-child(4) > form input:hover,.contact div:nth-child(4) > form textarea:hover,.contact div:nth-child(4) > form select:hover{
+		border-color:rgb(244, 244, 244) ;
+	}
+	.contact div:nth-child(4) > form input[type = "submit"]{
 		width: 40%;
-		padding: 1vw 0;
-		font-size: 1.5vw;
-		border: 3px solid transparent;
+		padding: 1vh 0;
+		font-size: 1.3vw;
+		border: 1px solid transparent;
 		background-color: rgb(220, 30, 30);
 		color: rgb(229, 229, 229);
 		transition-duration: 0.25s;
-		border-radius: 1vw;
+		border-radius: 1vh;
 	}
-	.contact div > form input[type = "submit"]:hover{
+	.contact div:nth-child(4) > form input[type = "submit"]:hover{
 		width: 50%;
 		background-color: transparent;
 		color: rgb(220, 30, 30);
 		border-color: rgb(220, 30, 30);
 	}
-	.contact div > form input[type = "submit"]:active{
+	.contact div:nth-child(4) > form input[type = "submit"]:active{
 		background-color: rgb(220, 30, 30);
 		color: rgb(229, 229, 229);
 	}
@@ -251,7 +290,7 @@
 
 	.contact > div:nth-child(1){
 		width: 100vw;
-		height: 90vh;
+		height: 80vh;
 	}
 	.contact > div:nth-child(1) > img{
 		width: 100%;
@@ -263,7 +302,7 @@
 		flex-direction: column;
 		justify-content: space-evenly;
 		position: absolute;
-		top: 30vh;
+		top: 20vh;
 		background-color: rgba(8, 8, 8, 0.4);
 		padding: 3vh 3vh;
 	}
@@ -294,43 +333,41 @@
 	.contact > div:nth-child(3){
 		width: 100vw;
 		display: flex;
-		padding: 0vh 3vh;
-		background-color: rgb(229, 229, 229);
+		background-color: rgb(244, 244, 244);
 		flex-direction: column;
 		align-items: center;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1){
 		width: 100%;
-		height: 100vh;
+		height: 70vh;
 		display: inline-flex;
 		flex-direction: column;
-		justify-content: space-evenly;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1){
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-		height: 50%;
+		height: 40%;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h1{
-		font-size: 4vh;
-		color: rgb(23, 23, 23);
+		font-size: 3vh;
+		color: rgb(8, 8, 8);
 		text-align: center;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > p{
-		font-size: 3vh;
-		color: rgb(82, 82, 82);
+		font-size: 2vh;
+		color: rgb(60, 60, 60);
 		text-align: center;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2){
 		display: inline-flex;
 		flex-direction: column;
-		height: 50%;
+		height: 60%;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div{
@@ -343,133 +380,156 @@
 		justify-content: space-evenly;
 		align-items: center;
 		width: 50%;
-		padding: 2.5vh;
 	}
 
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > h1{
-		font-size: 2.5vh;
-		color: rgb(23, 23, 23);
+		font-size: 2vh;
+		color: rgb(8, 8, 8);
 		text-align: center;
 	}
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > p{
 		font-size: 1.5vh;
 		padding: 1vh 0;
-		color: rgb(82, 82, 82);
+		color: rgb(60, 60, 60);
 		text-align: center;
 	}
 	.contact > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > img{
-		width: 40%;
+		width: 20%;
 		padding: 1vh 0;
 	}
 
-	.contact > div:nth-child(3) > div:nth-child(2){
-		width: 100vw;
-		height: 100vh;
-		padding: 0 10vw;
-		display: inline-flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: center;
-		background-color: rgb(23, 23, 23);
-	}
-	.contact > div:nth-child(3) > div:nth-child(2) > div{
-		width: 100%;
-		height: 20%;
-		display: inline-flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: center;
-	}
-	.contact > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) h1{
-		font-size: 3vh;
-	}
-	.contact > div:nth-child(3) > div:nth-child(2) > div:nth-child(3){
-		height: 50%;
-	}
-	.contact div > input, .contact div > textarea, .contact div > select{
-		resize: none;
-		transition-duration: 0.25s;
-		width: 90%;
-		border-radius: 3vh;
-		padding: 1vw 0;
-		text-align: center;
-		font-size: 2vh;
-		color: rgb(23, 23, 23);
-		border: 1px solid transparent;
-	}
-
-
-	.contact > div:nth-child(3) > div:nth-child(2) > div > textarea{
-		width: 100%;
-		color: rgb(23, 23, 23);
-		height: 100%;
-		font-size: 2vh;
-	}
-
-	.contact > div:nth-child(3) > div:nth-child(2) > button{
-		width: 70%;
-		padding: 1vw 0;
-		font-size: 2vh;
-		border: 3px solid transparent;
-		background-color: rgb(220 38 38);
-		color: rgb(229, 229, 229);
-		transition-duration: 0.2s;
-		border-radius: 5vw;
-		margin-top: 1vh;
-	}
-	.contact > div:nth-child(3) > div:nth-child(2) > button:active{
-		background-color: transparent;
-		color: rgb(220 38 38);
-		border-color: rgb(220 38 38);
-	}
+	.contact > div:nth-child(3) > form{
+		display:none}
 	/*******************************************fourth div********************************************/
 	.contact > div:nth-child(4){
 		width: 100vw;
-		height: 80vh;
-		background-color: rgb(23, 23, 23);
-		color: rgb(229, 229, 229);
+		height: 100vh;
+		background-color: rgb(8, 8, 8);
+		color: rgb(244, 244, 244);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		padding: 10vh 0;
 	}
-	.contact div > form{
+	.contact div:nth-child(4) >h1{
+		font-size: 2vh;
+		color: rgb(229, 229, 229);
+		position: absolute;
+		top:167.5vh;
+		padding: 1vh;
+		width: 60%;
+		text-align: center;
+		background-color: rgba(8, 8, 8);
+		border: 1px solid rgb(244, 244, 244);
+		border-radius:1vh ;
+	}
+	.contact div:nth-child(4) > form{
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		width: 100%;
+		width: 90%;
 		height: 100%;
+		border: 1px solid rgb(244, 244, 244);
+		border-radius: 1vh;
 	}
-	.contact div > form h1{
-		font-size: 3vh;
-	}
-	.contact div > form input,.contact div > form textarea,.contact div > form select{
+	.contact div:nth-child(4) > form input,.contact div > form textarea,.contact div > form select{
 		width: 90%;
 		border: 1px solid transparent;
-		border-radius: 3vw;
+		border-radius: 1vh;
 		padding: 1vw 0;
 		text-align: center;
 		resize: none;
 		font-size: 2vh;
-		color: rgb(8, 8, 8);
+		color: rgb(244, 244, 244);
+		background-color: rgb(15, 15, 15);
+		border: 1px solid rgb(244, 244, 244);
+		outline: none;
 	}
-	.contact div > form textarea{
+	.contact div:nth-child(4) > form textarea{
 		height: 30%;
 	}
 	.contact div > form input[type = "submit"]{
 		background-color: rgb(220, 38, 38);
 		border: 3px solid transparent;
-		color: rgb(229, 229, 229);
+		color: rgb(244, 244, 244);
 		transition-duration: 0.2s;
 		width: 60%;
-		border-radius: 3vh;
+		border-radius: 1vh;
 		font-size: 2vh;
 	}
-	.contact div > form input[type = "submit"]:active{
+	.contact div:nth-child(4) > form input[type = "submit"]:active{
 		background-color: transparent;
 		border-color: rgb(220, 38, 38);
+		color: rgb(220, 38, 38);
+		width: 70%;
+	}
+
+
+	/****************************************fifth div**********************************/
+	.contact > div:nth-child(5){
+		width: 100vw;
+		height: 110vh;
+		background-color: rgb(8, 8, 8);
+		color: rgb(244, 244, 244);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10vh 0;
+	}
+	.contact div:nth-child(5) >h1{
+		font-size: 2vh;
 		color: rgb(229, 229, 229);
+		position: absolute;
+		top:267.5vh;
+		padding: 1vh;
+		width: 60%;
+		text-align: center;
+		background-color: rgba(8, 8, 8);
+		border: 1px solid rgb(244, 244, 244);
+		border-radius:1vh ;
+	}
+	.contact div:nth-child(5) > form{
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 90%;
+		height: 100%;
+		border: 1px solid rgb(244, 244, 244);
+		border-radius: 1vh;
+	}
+	.contact div:nth-child(5) > form input,.contact div > form textarea,.contact div > form select{
+		width: 90%;
+		border: 1px solid transparent;
+		border-radius: 1vh;
+		padding: 1vw 0;
+		text-align: center;
+		resize: none;
+		font-size: 2vh;
+		color: rgb(244, 244, 244);
+		background-color: rgb(15, 15, 15);
+		border: 1px solid rgb(244, 244, 244);
+		outline: none;
+	}
+	.contact div:nth-child(5) > form textarea{
+		height: 30%;
+	}
+	.contact div > form input[type = "submit"]{
+		background-color: rgb(220, 38, 38);
+		border: 3px solid transparent;
+		color: rgb(244, 244, 244);
+		transition-duration: 0.2s;
+		width: 60%;
+		border-radius: 1vh;
+		font-size: 2vh;
+	}
+	.contact div:nth-child(5) > form input[type = "submit"]:active{
+		background-color: transparent;
+		border-color: rgb(220, 38, 38);
+		color: rgb(220, 38, 38);
 		width: 70%;
 	}
 }

@@ -79,15 +79,18 @@ export default function Contact(){
 					</div>
 				</div>
 			</div>
-			<div className = {gowun_batang.className}>
+			<form className = {gowun_batang.className}>
+					<h1 className={lora.className}>For Companies only</h1>
 				<div>
-					<h1 className="sm:hidden">For Companies only</h1>
-					<input type = "text" name = "full_name" placeholder = "*Full Name"/>
-					<input type = "email"name = "email_address"placeholder = "*Email Address" />
+					<input required type="text" name="company" placeholder="company e.g(mhticon)"/>
 				</div>
 				<div>
-					<input type = "number" name = "p_number" placeholder = "*Phone number"/>
-					<select name = "field">
+					<input required type = "text" name = "name" placeholder = "name/position e.g(jhon/HR)"/>
+					<input required type = "email"name = "email"placeholder = "email e.g(abc@gmail.com)" />
+				</div>
+				<div>
+					<input required type = "number" name = "phone_number" placeholder = "phone No. e.g(123----)"/>
+					<select required name = "field">
 						<option value = "select one">Select One</option>
 						<option value = "Recuritment">Recuritment</option>
 						<option value = "Training">Training</option>
@@ -104,19 +107,31 @@ export default function Contact(){
 					</select>
 				</div>
 				<div>
-					<textarea name = "message" placeholder="*Message" />
+					<textarea required name = "message" placeholder="message" />
 				</div>
 				<button>Submit Request</button>
-			</div>
+			</form>
 		</div>
 		<div>
+				<h1>For Jobseekers only</h1>
 			<form className = {gowun_batang.className}>
-				<h1>for Jobseekers only</h1>
-				<input type = "text" name = "full_name" placeholder = "*Full Name"/>
-				<input type = "number" name = "p_number" placeholder = "*Phone number"/>
-				<input type = "email" name = "email_address" placeholder = "*Email Address"/>
-				<textarea name = "message" placeholder = "*Message"/>
-				<input type = "submit" name = "submit" value = "Submit Request"/>
+				<input required type = "text" name = "name" placeholder = "name e.g(jhon)"/>
+				<input required type = "number" name = "phone_number" placeholder = "phone No. e.g(123----)"/>
+				<input required type = "email" name = "email_address" placeholder = "email e.g(abc@email.com)"/>
+				<textarea required name = "message" placeholder = "Message"/>
+				<input required type = "submit" name = "submit" value = "Submit Request"/>
+			</form>
+		</div>
+
+		<div>
+			<h1>For Companies only</h1>
+			<form className="sm:hidden">
+				<input required type = "text" name = "name" placeholder = "name/position e.g(jhon/HR)"/>
+				<input required type = "text" name = "company" placeholder = "company e.g(mhticon)"/>
+				<input required type = "number" name = "phone_number" placeholder = "phone No. e.g(123----)"/>
+				<input required type = "email" name = "email_address" placeholder = "email e.g(abc@email.com)"/>
+				<textarea required name = "message" placeholder = "message"/>
+				<input required type = "submit" name = "submit" value = "Submit Request"/>
 			</form>
 		</div>
 	</div>
