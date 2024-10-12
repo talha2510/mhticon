@@ -169,8 +169,8 @@ export default function Home(){
 				<form className={lora.className}>
 					<input type="text" name="name" placeholder="Name/position e.g (jhon/HR)" required/>
 					<input type="text" name="company_name" placeholder="company e.g (mhticon)" required/>
-					<input type="number" name="email" placeholder="email e.g (abc@email.com)" required/>
-					<input type="email" name="phone_number" placeholder="phone No. e.g (123----)" required/>
+					<input type="email" name="email" placeholder="email e.g (abc@email.com)" required/>
+					<input type="number" name="phone_number" placeholder="phone No. e.g (123----)" required/>
 					<textarea name="message" placeholder="Message" required></textarea>
 					<input className={gowun_batang.className}type="submit" name="submit" value="submit" />
 				</form>
@@ -181,8 +181,8 @@ export default function Home(){
 				<form className={lora.className}>
 					<input type="text" name="name" placeholder="Name e.g (jhon)" required/>
 					<input type="text" name="field" placeholder="field e.g (web dev,project manager etc)" required/>
-					<input type="number" name="email" placeholder="email e.g (abc@email.com)" required/>
-					<input type="email" name="phone_number" placeholder="phone No. e.g (123----)" required/>
+					<input type="email" name="email" placeholder="email e.g (abc@email.com)" required/>
+					<input type="number" name="phone_number" placeholder="phone No. e.g (123----)" required/>
 					<textarea name="message" placeholder="Message" required></textarea>
 					<input className={gowun_batang.className} type="submit" name="submit" value="submit" />
 				</form>
